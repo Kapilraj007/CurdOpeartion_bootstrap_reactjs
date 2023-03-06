@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+$mycolor:yellow;
+$headsize:18px;
+
+body{
+background-color: hsl(216, 43%, 67%);
+font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  text-align: center;
+  color: $mycolor;
+  font-weight: bold;
+}
+th{
+    font-size: $headsize;
+}
+form{
+    margin-top: 2em;
+}
+label{
+   display: block;
+   font-size: $headsize;
+}
+form button{
+    margin-top: 1em;
+    
+}
